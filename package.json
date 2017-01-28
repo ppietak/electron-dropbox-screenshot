@@ -1,0 +1,30 @@
+{
+  "name": "electron-dropbox-screenshot",
+  "version": "1.0.0",
+  "description": "A simple Dropbox integrated screenshot uploader",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron .",
+    "package": "electron-packager ./ electron-dropbox-screenshot --mac --version=0.1 --out=./ --overwrite --icon=./icon.png.iconset"
+  },
+  "keywords": [
+    "electron",
+    "dropbox",
+    "screenshot",
+    "upload",
+    "image"
+  ],
+  "author": "ppietak",
+  "license": "MIT",
+  "dependencies": {
+    "asar-require": "^0.3.0",
+    "dropbox": "^2.5.0",
+    "electron-config": "^0.2.1",
+    "event-emitter": "^0.3.4",
+    "node-notifier": "^4.6.1",
+    "shelljs": "^0.7.6"
+  },
+  "devDependencies": {
+    "electron": "^1.4.1"
+  }
+}
